@@ -29,5 +29,5 @@ export const updatestatus = (req,res) => {
     if(total_case) user.total_case = total_case;
     if(total_recovered) user.total_recovered = total_recovered;
     if(total_death) user.total_death = total_death;
-    res.send(`Status with the id ${id} updated`)
+    res.send(`Status with the id ${id} updates`)
 }
